@@ -109,10 +109,15 @@
     
  ## ADDING A WORKER NODE
  
-  Repeat all steps above, but skip add Master node, as yuo alreayd created the master node
+  Repeat all steps above, but skip add Master node, as you already created the master node
   Once you completed all steps, run the kubeadm join string you copied when created the master node:
+    
+    example: kubeadm join --token 3c37b5.08ed6cdf2e4a14c9
+    159.89.25.245:6443 --discovery-token-ca-cert-hash
+    sha256:52f99432eb33bb23ff86f62255ecbb
   
-  On the master node run:
+  
+  Once completed  the master node run:
   
   kubectl get nodes
   NAME                                STATUS   ROLES    AGE   VERSION

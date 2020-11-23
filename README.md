@@ -17,7 +17,8 @@
      deb http://apt.kubernetes.io/ kubernetes-xenial main
      sudo apt update
 
-## Install docker (or any other contaniner mgmt you want: https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+## Install docker
+  Or any other contaniner mgmt you want: https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
  
  
  ### Set up the repository:

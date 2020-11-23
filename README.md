@@ -1,4 +1,8 @@
-# kubernetes-DO-Ubuntu
+# Create a kubernetes cluster using DigitalOcean Ubuntu 20.04 droplets
+
+Follow this steps to create Kubernetes cluster on a Digital Ocean (DO) droplets
+Note the master should be have at least 2GB of memory.
+Note you can create this using the DO Kubernetes service, but you wont be able to manage your control plane directly.
 
 ## Updating Droplet
     apt get update
